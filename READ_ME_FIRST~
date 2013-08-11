@@ -1,0 +1,123 @@
+
+############################################################################
+#																		   #
+# SOUVENIR ( YAADEIN-SOFTWARE)          								   #
+#																		   #
+############################################################################
+
+This application is used make booklet for all passout student who have completed their degress. This will remind you, your youthful days when you value friendship above all. 
+
+
+
+============================================================================
+
+                           INSTALLATION 
+
+############################################################################
+#																		   #
+#                      INSTALL LAMP SERVER 								   #
+#																		   #
+############################################################################
+
+============================================================================
+
+$ sudo apt-get install apache2
+$ sudo apt-get install php5 libapache2-mod-php5
+$ sudo apt-get install mysql-server mysql-server
+$ sudo apt-get install phpmyadmin
+$ sudo apt-get install libapache2-mod-auth-mysql php5-mysql
+$ sudo /etc/init.d/apache2 restart
+
+============================================================================
+
+############################################################################
+#																		   #
+#                      DJANGO INSTALLATION 								   #
+#																		   #
+############################################################################
+
+============================================================================
+
+1.) Extract Django folder
+	Than
+   
+    tar -zxvf Souvenir-Package.tar.gz 
+    cd Souvenir-Package
+    cd Django-1.4.5
+    sudo python setup.py install
+
+============================================================================
+
+############################################################################
+#																		   #
+#		                USING SCRIPT                                       #
+#																		   #
+############################################################################
+
+============================================================================
+
+1). PLACE "Souvenir-Package.tar.gz" folder "WITHOUT EXTRACTING" in "DOWNLOAD" FOLDER.
+
+2). PLACE "script.sh" File in home folder. Change permissions " chmod 777 script.sh "
+
+============================================================================
+
+############################################################################
+#																		   #
+#                      MANUAL INSTALLATION 								   #
+#																		   #
+############################################################################
+
+============================================================================
+
+1). Extract "Souvenir-Package.tar.gz" FOLDER and read INSTALL.TXT file.
+
+============================================================================
+
+############################################################################
+#																		   #
+#                  DATA_RETRIEVING_PROCESS								   #
+#																		   #
+############################################################################
+
+============================================================================
+
+1.) Extract data_retriev folder and push that folder at experimental
+    
+    Eg:   scp /home/username/data_retrieve xxxx@202.164.53.122:~/public_html/
+
+    Run script :- ""  sh script.sh ""
+
+    FOR MANUAL PROCESS read " UserGuide.pdf "
+
+============================================================================
+
+############################################################################
+#																		   #
+#                          IMPOSITION 	 								   #
+#																		   #
+############################################################################
+
+============================================================================
+
+1.) Extract cover folder and read READ_ME file
+
+============================================================================
+
+
+
+AUTHORS:
+
+Mentor and Manager
+
+Dr. Hardeep Singh Rai
+
+Website: http://gndec.ac.in/~hsrai
+
+Developer
+
+Deepak Kumar Sharma
+
+Blog: deekysharma.wordpress.com
+
+Email: deeky.sharma@gmail.com
