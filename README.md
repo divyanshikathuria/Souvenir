@@ -6,6 +6,41 @@
 
 This application is used to make booklet for all pass out student who have completed their degrees. This will remind you, your youthful days when you value friendship above all. 
 
+===========================================================================
+
+############################################################################
+#																		   #
+#                         BASIC REQUIREMENTS         					   #
+#																		   #
+############################################################################
+
+======================= SOFTWARE-REQUIREMENT ==============================
+
+1) LAMP SERVER
+
+2) PHP
+
+3) LaTeX
+
+4) GIMP
+
+5) ImageMagick
+
+6) PYTHON
+
+7) DJANGO
+
+========================== HARDWARE-REQUIREMENT ============================
+
+
+Hardware requirement of this project is any Desktop or Laptop machine for local
+use or a Server with minimum available configuration to make Project globally
+available. Hardware specifications of the machine used depends upon the hardware
+requirements of the Operating System installed on it. As such there are no special
+hardware requirements of this project.
+
+
+
 ============================================================================
 
 ############################################################################
@@ -166,6 +201,10 @@ process which is as follows :
 #																		   #
 ############################################################################
 
+NOTE: Before running script install sam2p.
+      
+      $ sudo apt-get install sam2p
+      
 1.) Extract data_retriev folder and push that folder at experimental
     
     Eg:   scp /home/username/data_retrieve/souvenir xxxx@202.164.53.122:~/public_html/
@@ -203,10 +242,15 @@ process which is as follows :
    NOTE: To covert .jpg file into .pdf use this
     
    \documentclass{article}
+   
    \usepackage[pdftex]{color,graphicx,epsfig}
+   
    \usepackage[final]{pdfpages} % for including pdf file
+   
    \begin{document}
+   
    \includepdf[pages=-]{.JPG_FILE_NAME}
+   
    \end{document}
 
 ============================================================================
